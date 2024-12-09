@@ -1,15 +1,14 @@
-name: GitHub Pages
+name: Build and Deploy Jekyll Site
 
 on:
   push:
     branches:
-      - main
+      - main  # or your default branch
   pull_request:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
 
     steps:
       - name: Checkout code
@@ -18,7 +17,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1'  # Adjust Ruby version if necessary
           bundler-cache: true
 
       - name: Install dependencies
@@ -26,9 +25,6 @@ jobs:
 
       - name: Build the site
         run: bundle exec jekyll build
-
-      - name: Debug site content
-        run: ls -la ./_site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
