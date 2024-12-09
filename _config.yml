@@ -13,8 +13,8 @@ title_separator          : "-"
 name                     : &name "Srikrishnarka Pillalamarri"
 description              : &description "personal description"
 url                      : https://srikrishnarka.github.io/ # the base hostname & protocol for your site e.g. "https://srikrishnarka.github.io/"
-baseurl                  : ""
-repository               : "srikrishnarka/srikrishnarka.github.io/"
+baseurl                  : "/academic_webpage"
+repository               : "srikrishnarka/srikrishnarka.github.io/academic_webpage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
