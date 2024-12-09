@@ -12,7 +12,7 @@ title                    : "Srikrishnarka Pillalamarri"
 title_separator          : "-"
 name                     : &name "Srikrishnarka Pillalamarri"
 description              : &description "personal description"
-url                      : https://srikrishnarka.github.io # the base hostname & protocol for your site e.g. "https://srikrishnarka.github.io"
+url                      : https://srikrishnarka.github.io/academic_webpage # the base hostname & protocol for your site e.g. "https://srikrishnarka.github.io/academic_webpage"
 baseurl                  : ""
 repository               : "https://github.com/Srikrishnarka/Academic-webpage"
 
